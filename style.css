@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+}
+
+.container {
+    width: 326px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.background-img {}

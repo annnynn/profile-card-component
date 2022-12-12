@@ -7,11 +7,39 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(185, 75%, 39%);
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+.bg-top {
+    position: absolute;
+    top: -50%;
+    left: -25%;
+    z-index: -1;
+}
+
+.bg-top img {
+    width: 979px;
+    height: 776px;
+    opacity: 50%;
+}
+
+.bg-bottom {
+    position: absolute;
+    bottom: -100%;
+    right: -15%;
+    z-index: -1;
+}
+
+.bg-bottom img {
+    width: 978px;
+    height: 976px;
+    opacity: 25%;
 }
 
 .container {

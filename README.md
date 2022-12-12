@@ -19,6 +19,7 @@
 - what box-sizing: border-box means
 - ( -margin) property
 - how z index works 
+- overflow
 
 
 #useful resources

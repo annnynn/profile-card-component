@@ -3,6 +3,8 @@
 
 #overview
 - in this project i used mobile-first technique, it's responsive and built it in 4 hour. 
+- dekstop resolution (1440px720px)
+- mobile resolution (375px667px)
 
 #my-process
 - built pretty quickly.

@@ -16,10 +16,11 @@
 - Mobile-first workflow
 
 #what i learned
-
 - what box-sizing: border-box means
 - ( -margin) property
+- how z index works 
 
 
 #useful resources
 - https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing#:~:text=border%2Dbox%20tells%20the%20browser,to%20absorb%20that%20extra%20width.
+- https://www.w3schools.com/cssref/tryit.php?filename=trycss_zindex

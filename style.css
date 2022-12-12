@@ -95,3 +95,11 @@ h1 span {
     color: #6B7082;
     margin-top: 9px;
 }
+
+@media only screen and (max-width: 375px) {
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

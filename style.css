@@ -140,6 +140,7 @@ h1 span {
         height: 720px;
         height: 100vh;
         overflow: hidden;
+        max-width: 100%;
     }
     .bg-top {
         position: absolute;
@@ -153,7 +154,7 @@ h1 span {
     }
     .bg-bottom {
         position: absolute;
-        bottom: -95%;
+        bottom: -80%;
         left: 50%;
         z-index: -1;
     }

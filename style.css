@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-blue: hsl(229, 23%, 23%);
+    --dark-grayish: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,43 +13,46 @@
 }
 
 body {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: var(--dark-cyan);
+    overflow: hidden;
+    height: 100vh;
+}
+
+.section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Kumbh Sans', sans-serif;
-    background-color: hsl(185, 75%, 39%);
-    overflow: hidden;
 }
 
 .bg-top {
     position: absolute;
     top: -50%;
-    left: -25%;
+    right: 50%;
     z-index: -1;
 }
 
 .bg-top img {
-    width: 979px;
-    height: 776px;
-    opacity: 50%;
+    width: 622px;
+    height: 621px;
 }
 
 .bg-bottom {
     position: absolute;
-    bottom: -100%;
-    right: -15%;
+    bottom: -50%;
+    left: 50%;
     z-index: -1;
 }
 
 .bg-bottom img {
-    width: 978px;
-    height: 976px;
-    opacity: 25%;
+    width: 622px;
+    height: 621px;
 }
 
-.container {
+.card {
     width: 326px;
     height: 374px;
     border-radius: 15px;
@@ -102,20 +112,20 @@ h1 span {
     margin-top: 28px;
 }
 
-.statistic {
+.footer-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 24px;
 }
 
-.statistic h2 {
+.footer-container h2 {
     font-size: 18px;
     line-height: 22.32px;
     font-weight: 700;
     color: #2E3349;
 }
 
-.statistic p {
+.footer-container p {
     font-size: 10px;
     line-height: 12.4px;
     letter-spacing: 1.5px;
@@ -125,11 +135,28 @@ h1 span {
 }
 
 @media only screen and (min-width: 375px) {
-    .body {
-        width: 1440px;
-        height: 720px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+    .bg-top {
+        position: absolute;
+        top: -80%;
+        right: 50%;
+        z-index: -1;
+    }
+    .bg-top img {
+        width: 978px;
+        height: 976px;
+    }
+    .bg-bottom {
+        position: absolute;
+        bottom: -95%;
+        left: 50%;
+        z-index: -1;
+    }
+    .bg-bottom img {
+        width: 978px;
+        height: 976px;
     }
 }

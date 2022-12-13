@@ -4,8 +4,6 @@
 #overview
 
 - it's responsive and built in 1.5 day. 
-- dekstop resolution (1440px720px)
-- mobile resolution (375px667px)
 
 #my-process
 - Aligning the background image took the most time. 
@@ -14,7 +12,6 @@
 - Semantic HTML5 markup
 - CSS custom properties
 - Flebox
-- Mobile-first workflow
 
 #what i learned
 - what box-sizing: border-box means

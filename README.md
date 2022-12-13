@@ -3,12 +3,12 @@
 
 #overview
 
-- it's responsive and built it in 4 hour. 
+- it's responsive and built in 1.5 day. 
 - dekstop resolution (1440px720px)
 - mobile resolution (375px667px)
 
 #my-process
-- built pretty quickly.
+- Aligning the background image took the most time. 
 
 #built-with
 - Semantic HTML5 markup
@@ -23,8 +23,7 @@
 - overflow
 
 #Continued development
-
-- how to set bg-img, and bottom-img for mobile
+- how to set bg images behind the card 
 
 #useful-resources
 - https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing#:~:text=border%2Dbox%20tells%20the%20browser,to%20absorb%20that%20extra%20width.

@@ -8,7 +8,7 @@
 - mobile resolution (375px667px)
 
 #my-process
-- built pretty quickly.
+- Aligning the background image took the most time. 
 
 #built-with
 - Semantic HTML5 markup

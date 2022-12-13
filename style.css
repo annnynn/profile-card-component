@@ -13,47 +13,22 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     background: var(--dark-cyan);
     width: 375px;
     height: 667px;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
-}
-
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.bg-top {
-    position: absolute;
-    top: -50%;
-    right: 50%;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
     z-index: -1;
-}
-
-.bg-top img {
-    width: 622px;
-    height: 621px;
-}
-
-.bg-bottom {
-    position: absolute;
-    bottom: -40%;
-    left: 50%;
-    z-index: -1;
-    opacity: 25%;
-}
-
-.bg-bottom img {
-    width: 100vw;
-    width: 622px;
-    height: 621px;
 }
 
 .card {

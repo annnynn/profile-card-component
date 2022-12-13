@@ -16,8 +16,10 @@ body {
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     background: var(--dark-cyan);
+    width: 375px;
+    height: 667px;
+    width: 100%;
     overflow: hidden;
-    height: 100vh;
 }
 
 .section {
@@ -25,7 +27,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
 }
 
 .bg-top {
@@ -42,12 +44,14 @@ body {
 
 .bg-bottom {
     position: absolute;
-    bottom: -50%;
+    bottom: -40%;
     left: 50%;
     z-index: -1;
+    opacity: 25%;
 }
 
 .bg-bottom img {
+    width: 100vw;
     width: 622px;
     height: 621px;
 }
@@ -132,34 +136,4 @@ h1 span {
     font-weight: 400;
     color: #6B7082;
     margin-top: 9px;
-}
-
-@media only screen and (min-width: 375px) {
-    body {
-        width: 1440px;
-        height: 720px;
-        height: 100vh;
-        overflow: hidden;
-        max-width: 100%;
-    }
-    .bg-top {
-        position: absolute;
-        top: -80%;
-        right: 50%;
-        z-index: -1;
-    }
-    .bg-top img {
-        width: 978px;
-        height: 976px;
-    }
-    .bg-bottom {
-        position: absolute;
-        bottom: -80%;
-        left: 50%;
-        z-index: -1;
-    }
-    .bg-bottom img {
-        width: 978px;
-        height: 976px;
-    }
 }
